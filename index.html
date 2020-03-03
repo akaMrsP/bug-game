@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Squish the Bug Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1> Squish the Bug! </h1>
+        <p>
+            Each square contains either sleep or a bug.  To play, click on a square.  Clicking on a square will flip the value of that 
+            square and each square immediately adjacent.  Keep clicking until you have squished all your development bugs and can
+            finally get some sleep!
+        </p>
+        <div class="game-container">
+            <!-- A 5 x 5 gameboard -->
+            <table>
+                <tr class="row row1">
+                    <td class="col col1">ZZZ</td>
+                    <td class="col col2">ZZZ</td>                    
+                    <td class="col col3">ZZZ</td>
+                    <td class="col col4">ZZZ</td>
+                    <td class="col col5">ZZZ</td>
+                </tr>
+                <tr class="row row2">
+                    <td class="col col1">ZZZ</td>
+                    <td class="col col2">ZZZ</td>                    
+                    <td class="col col3">ZZZ</td>
+                    <td class="col col4">ZZZ</td>
+                    <td class="col col5">ZZZ</td>
+                </tr>
+                <tr class="row row3">
+                    <td class="col col1">ZZZ</td>
+                    <td class="col col2">ZZZ</td>                    
+                    <td class="col col3">//o\\</td>
+                    <td class="col col4">ZZZ</td>
+                    <td class="col col5">ZZZ</td>
+                </tr>
+                <tr class="row row4">
+                    <td class="col col1">ZZZ</td>
+                    <td class="col col2">ZZZ</td>                    
+                    <td class="col col3">ZZZ</td>
+                    <td class="col col4">ZZZ</td>
+                    <td class="col col5">ZZZ</td>
+                </tr>
+                <tr class="row row5">
+                    <td class="col col1">ZZZ</td>
+                    <td class="col col2">ZZZ</td>                    
+                    <td class="col col3">ZZZ</td>
+                    <td class="col col4">ZZZ</td>
+                    <td class="col col5">ZZZ</td>
+                </tr>
+            </table>
+        </div>
+        <button type="button" class="startBtn" aria-label="Start">Start Game</button>
+    </div>
+    <script src="bug.js"></script>
+</body>
+</html>
