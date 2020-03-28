@@ -16,6 +16,7 @@ body {
 table td {
     background: rgba(243,233,252,0.6);
     border: 10px solid blueviolet;
+    border-radius: 4px;
     min-height: 100px;
     min-width: 100px;
 }
@@ -44,7 +45,7 @@ table td {
 }
 
 /* modeled after Coding Addict's Basic Javascript Project video example */
-.startBtn {
+#startBtn {
     align-self: flex-end;
     background: rgba(138,43,226,0.6);
     border: 3px solid blueviolet;
@@ -56,7 +57,7 @@ table td {
     padding: 0.25rem 0.5rem;
 }
 
-.startBtn:hover {
+#startBtn:hover {
     background: rgba(138,43,226);
 }
 
